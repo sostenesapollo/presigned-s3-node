@@ -1,0 +1,22 @@
+{
+  "name": "poc-how-to-create-presigned-url-s3-object",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1052.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
